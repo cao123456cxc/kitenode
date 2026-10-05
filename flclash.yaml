@@ -4,193 +4,11 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: '香港 S06'
-    type: vless
-    server: 'hk-hli10.kitenetwork.top'
-    port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
-    network: tcp
-    tls: true
-    udp: true
-    servername: 'g.alicdn.com'
-    client-fingerprint: 'chrome'
-    reality-opts:
-      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
-      short-id: 'a9c6d1a32404d072'
-    flow: 'xtls-rprx-vision'
-  - name: '香港 Y05'
-    type: vless
-    server: 'hk-ye05.kitenetwork.top'
-    port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
-    network: tcp
-    tls: true
-    udp: true
-    servername: 'g.alicdn.com'
-    client-fingerprint: 'chrome'
-    reality-opts:
-      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
-      short-id: 'a9c6d1a32404d072'
-    flow: 'xtls-rprx-vision'
-  - name: '台湾 N01'
-    type: vless
-    server: 'hktw-kli06tw-nat02.kitenetwork.top'
-    port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
-    network: tcp
-    tls: true
-    udp: true
-    servername: 'g.alicdn.com'
-    client-fingerprint: 'chrome'
-    reality-opts:
-      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
-      short-id: 'a9c6d1a32404d072'
-    flow: 'xtls-rprx-vision'
-  - name: '日本 A03'
-    type: vless
-    server: 'jp-aws03.kitenetwork.top'
-    port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
-    network: tcp
-    tls: true
-    udp: true
-    servername: 'tencentcloud.com'
-    client-fingerprint: 'chrome'
-    reality-opts:
-      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
-      short-id: 'a9c6d1a32404d072'
-    flow: 'xtls-rprx-vision'
-  - name: '日本 B02'
-    type: vless
-    server: 'jp-t09.kitenetwork.top'
-    port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
-    network: tcp
-    tls: true
-    udp: true
-    servername: 'www.oracle.com'
-    client-fingerprint: 'chrome'
-    reality-opts:
-      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
-      short-id: 'a9c6d1a32404d072'
-    flow: 'xtls-rprx-vision'
-  - name: '韩国 L02'
-    type: vless
-    server: 'kr-ls02.kitenetwork.top'
-    port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
-    network: tcp
-    tls: true
-    udp: true
-    servername: 'www.amazon.com'
-    client-fingerprint: 'chrome'
-    reality-opts:
-      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
-      short-id: 'a9c6d1a32404d072'
-    flow: 'xtls-rprx-vision'
-  - name: '香港 S01'
-    type: vless
-    server: 'zzgz03hk-yt02.kitenetwork.top'
-    port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
-    network: tcp
-    tls: true
-    udp: true
-    servername: 'cloud.tencent.com'
-    client-fingerprint: 'chrome'
-    reality-opts:
-      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
-      short-id: 'a9c6d1a32404d072'
-    flow: 'xtls-rprx-vision'
-  - name: '越南 N03'
-    type: vless
-    server: 'hk-kli02vn-nat03.kitenetwork.top'
-    port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
-    network: tcp
-    tls: true
-    udp: true
-    servername: 'g.alicdn.com'
-    client-fingerprint: 'chrome'
-    reality-opts:
-      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
-      short-id: 'a9c6d1a32404d072'
-    flow: 'xtls-rprx-vision'
-  - name: '泰国 A03'
-    type: vless
-    server: 'zzsg02th-a03.kitenetwork.top'
-    port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
-    network: tcp
-    tls: true
-    udp: true
-    servername: 'www.amazon.com'
-    client-fingerprint: 'chrome'
-    reality-opts:
-      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
-      short-id: 'a9c6d1a32404d072'
-    flow: 'xtls-rprx-vision'
-  - name: '新加坡 W07'
-    type: vless
-    server: 'sg-aw06.kitenetwork.top'
-    port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
-    network: tcp
-    tls: true
-    udp: true
-    servername: 'www.amazon.com'
-    client-fingerprint: 'chrome'
-    reality-opts:
-      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
-      short-id: 'a9c6d1a32404d072'
-    flow: 'xtls-rprx-vision'
-  - name: '马来西亚 E05'
-    type: vless
-    server: 'zzhkmy-ev06my-ev06.kitenetwork.top'
-    port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
-    network: tcp
-    tls: true
-    udp: true
-    servername: 'www.amazon.com'
-    client-fingerprint: 'chrome'
-    reality-opts:
-      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
-      short-id: 'a9c6d1a32404d072'
-    flow: 'xtls-rprx-vision'
-  - name: '德国 A08'
-    type: vless
-    server: 'de-aws08.kitenetwork.top'
-    port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
-    network: tcp
-    tls: true
-    udp: true
-    servername: 'www.amazon.com'
-    client-fingerprint: 'chrome'
-    reality-opts:
-      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
-      short-id: 'a9c6d1a32404d072'
-    flow: 'xtls-rprx-vision'
-  - name: '法国 W02'
-    type: vless
-    server: 'fr-ws02.kitenetwork.top'
-    port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
-    network: tcp
-    tls: true
-    udp: true
-    servername: 'www.amazon.com'
-    client-fingerprint: 'chrome'
-    reality-opts:
-      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
-      short-id: 'a9c6d1a32404d072'
-    flow: 'xtls-rprx-vision'
   - name: '迪拜 F03'
     type: vless
     server: 'ae-li03.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
@@ -204,7 +22,7 @@ proxies:
     type: vless
     server: 'au-ev03.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
@@ -218,7 +36,7 @@ proxies:
     type: vless
     server: 'ch-ev03.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
@@ -228,11 +46,25 @@ proxies:
       public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
       short-id: 'a9c6d1a32404d072'
     flow: 'xtls-rprx-vision'
+  - name: '德国 A08'
+    type: vless
+    server: 'de-aws08.kitenetwork.top'
+    port: 443
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
+    network: tcp
+    tls: true
+    udp: true
+    servername: 'www.amazon.com'
+    client-fingerprint: 'chrome'
+    reality-opts:
+      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
+      short-id: 'a9c6d1a32404d072'
+    flow: 'xtls-rprx-vision'
   - name: '爱沙尼亚 W04'
     type: vless
     server: 'ee-wa04.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
@@ -246,7 +78,7 @@ proxies:
     type: vless
     server: 'en-ali05.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
@@ -260,7 +92,7 @@ proxies:
     type: vless
     server: 'en-aw05.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
@@ -270,11 +102,95 @@ proxies:
       public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
       short-id: 'a9c6d1a32404d072'
     flow: 'xtls-rprx-vision'
+  - name: '法国 W02'
+    type: vless
+    server: 'fr-ws02.kitenetwork.top'
+    port: 443
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
+    network: tcp
+    tls: true
+    udp: true
+    servername: 'www.amazon.com'
+    client-fingerprint: 'chrome'
+    reality-opts:
+      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
+      short-id: 'a9c6d1a32404d072'
+    flow: 'xtls-rprx-vision'
+  - name: '香港 S06'
+    type: vless
+    server: 'hk-hli10.kitenetwork.top'
+    port: 443
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
+    network: tcp
+    tls: true
+    udp: true
+    servername: 'g.alicdn.com'
+    client-fingerprint: 'chrome'
+    reality-opts:
+      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
+      short-id: 'a9c6d1a32404d072'
+    flow: 'xtls-rprx-vision'
+  - name: '越南 N03'
+    type: vless
+    server: 'hk-kli02vn-nat03.kitenetwork.top'
+    port: 443
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
+    network: tcp
+    tls: true
+    udp: true
+    servername: 'g.alicdn.com'
+    client-fingerprint: 'chrome'
+    reality-opts:
+      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
+      short-id: 'a9c6d1a32404d072'
+    flow: 'xtls-rprx-vision'
+  - name: '香港 Y05'
+    type: vless
+    server: 'hk-ye05.kitenetwork.top'
+    port: 443
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
+    network: tcp
+    tls: true
+    udp: true
+    servername: 'g.alicdn.com'
+    client-fingerprint: 'chrome'
+    reality-opts:
+      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
+      short-id: 'a9c6d1a32404d072'
+    flow: 'xtls-rprx-vision'
+  - name: '泰国 A03'
+    type: vless
+    server: 'zzsg02th-a03.kitenetwork.top'
+    port: 443
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
+    network: tcp
+    tls: true
+    udp: true
+    servername: 'www.amazon.com'
+    client-fingerprint: 'chrome'
+    reality-opts:
+      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
+      short-id: 'a9c6d1a32404d072'
+    flow: 'xtls-rprx-vision'
+  - name: '台湾 N01'
+    type: vless
+    server: 'hktw-kli06tw-nat02.kitenetwork.top'
+    port: 443
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
+    network: tcp
+    tls: true
+    udp: true
+    servername: 'g.alicdn.com'
+    client-fingerprint: 'chrome'
+    reality-opts:
+      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
+      short-id: 'a9c6d1a32404d072'
+    flow: 'xtls-rprx-vision'
   - name: '印尼 A04'
     type: vless
     server: 'id-sg05.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
@@ -288,7 +204,7 @@ proxies:
     type: vless
     server: 'il-ka04.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
@@ -302,7 +218,7 @@ proxies:
     type: vless
     server: 'in-a09.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
@@ -316,7 +232,7 @@ proxies:
     type: vless
     server: 'it-ka03.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
@@ -326,11 +242,53 @@ proxies:
       public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
       short-id: 'a9c6d1a32404d072'
     flow: 'xtls-rprx-vision'
+  - name: '日本 A03'
+    type: vless
+    server: 'jp-aws03.kitenetwork.top'
+    port: 443
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
+    network: tcp
+    tls: true
+    udp: true
+    servername: 'tencentcloud.com'
+    client-fingerprint: 'chrome'
+    reality-opts:
+      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
+      short-id: 'a9c6d1a32404d072'
+    flow: 'xtls-rprx-vision'
+  - name: '日本 B02'
+    type: vless
+    server: 'jp-t09.kitenetwork.top'
+    port: 443
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
+    network: tcp
+    tls: true
+    udp: true
+    servername: 'tencentcloud.com'
+    client-fingerprint: 'chrome'
+    reality-opts:
+      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
+      short-id: 'a9c6d1a32404d072'
+    flow: 'xtls-rprx-vision'
+  - name: '韩国 L02'
+    type: vless
+    server: 'kr-ls02.kitenetwork.top'
+    port: 443
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
+    network: tcp
+    tls: true
+    udp: true
+    servername: 'www.amazon.com'
+    client-fingerprint: 'chrome'
+    reality-opts:
+      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
+      short-id: 'a9c6d1a32404d072'
+    flow: 'xtls-rprx-vision'
   - name: '荷兰 K04'
     type: vless
     server: 'nl-ka05.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
@@ -344,7 +302,7 @@ proxies:
     type: vless
     server: 'no-fun08.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
@@ -358,7 +316,21 @@ proxies:
     type: vless
     server: 'se-aws07.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
+    network: tcp
+    tls: true
+    udp: true
+    servername: 'www.amazon.com'
+    client-fingerprint: 'chrome'
+    reality-opts:
+      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
+      short-id: 'a9c6d1a32404d072'
+    flow: 'xtls-rprx-vision'
+  - name: '新加坡 W07'
+    type: vless
+    server: 'sg-aw06.kitenetwork.top'
+    port: 443
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
@@ -372,7 +344,7 @@ proxies:
     type: vless
     server: 'us-rack01.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
@@ -386,11 +358,11 @@ proxies:
     type: vless
     server: 'us-isp.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
-    servername: 'cloud.tencent.com'
+    servername: 'g.alicdn.com'
     client-fingerprint: 'chrome'
     reality-opts:
       public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
@@ -400,7 +372,7 @@ proxies:
     type: vless
     server: 'us-pro02.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
@@ -414,11 +386,39 @@ proxies:
     type: vless
     server: 'us-rack02.kitenetwork.top'
     port: 443
-    uuid: '707e8241-ad87-4c57-9392-a125ca8b0ef1'
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
     network: tcp
     tls: true
     udp: true
     servername: 'g.alicdn.com'
+    client-fingerprint: 'chrome'
+    reality-opts:
+      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
+      short-id: 'a9c6d1a32404d072'
+    flow: 'xtls-rprx-vision'
+  - name: '香港 S01'
+    type: vless
+    server: 'zzgz03hk-yt02.kitenetwork.top'
+    port: 443
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
+    network: tcp
+    tls: true
+    udp: true
+    servername: 'cloud.tencent.com'
+    client-fingerprint: 'chrome'
+    reality-opts:
+      public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
+      short-id: 'a9c6d1a32404d072'
+    flow: 'xtls-rprx-vision'
+  - name: '马来西亚 E05'
+    type: vless
+    server: 'zzhkmy-ev06my-ev06.kitenetwork.top'
+    port: 443
+    uuid: 'b8aad7a8-d872-4ea8-bc77-58f16df60806'
+    network: tcp
+    tls: true
+    udp: true
+    servername: 'www.amazon.com'
     client-fingerprint: 'chrome'
     reality-opts:
       public-key: 'cWXdq73vb7B2e-PoV377AYu4DPSPfVFTjuy5McldTCY'
@@ -430,72 +430,72 @@ proxy-groups:
     type: select
     proxies:
       - '♻️ 自动选择'
-      - '香港 S06'
-      - '香港 Y05'
-      - '台湾 N01'
-      - '日本 A03'
-      - '日本 B02'
-      - '韩国 L02'
-      - '香港 S01'
-      - '越南 N03'
-      - '泰国 A03'
-      - '新加坡 W07'
-      - '马来西亚 E05'
-      - '德国 A08'
-      - '法国 W02'
       - '迪拜 F03'
       - '澳大利亚 E03'
       - '瑞士 E03'
+      - '德国 A08'
       - '爱沙尼亚 W04'
       - '英国 A05'
       - '英国 S03'
+      - '法国 W02'
+      - '香港 S06'
+      - '越南 N03'
+      - '香港 Y05'
+      - '泰国 A03'
+      - '台湾 N01'
       - '印尼 A04'
       - '以色列 K04'
       - '印度 A09'
       - '意大利 K03'
+      - '日本 A03'
+      - '日本 B02'
+      - '韩国 L02'
       - '荷兰 K04'
       - '挪威 F06'
       - '瑞典 A06'
+      - '新加坡 W07'
       - '美国 R01'
       - '美国 A08'
       - '美国 A03'
       - '美国 Y03'
+      - '香港 S01'
+      - '马来西亚 E05'
       - 'DIRECT'
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '香港 S06'
-      - '香港 Y05'
-      - '台湾 N01'
-      - '日本 A03'
-      - '日本 B02'
-      - '韩国 L02'
-      - '香港 S01'
-      - '越南 N03'
-      - '泰国 A03'
-      - '新加坡 W07'
-      - '马来西亚 E05'
-      - '德国 A08'
-      - '法国 W02'
       - '迪拜 F03'
       - '澳大利亚 E03'
       - '瑞士 E03'
+      - '德国 A08'
       - '爱沙尼亚 W04'
       - '英国 A05'
       - '英国 S03'
+      - '法国 W02'
+      - '香港 S06'
+      - '越南 N03'
+      - '香港 Y05'
+      - '泰国 A03'
+      - '台湾 N01'
       - '印尼 A04'
       - '以色列 K04'
       - '印度 A09'
       - '意大利 K03'
+      - '日本 A03'
+      - '日本 B02'
+      - '韩国 L02'
       - '荷兰 K04'
       - '挪威 F06'
       - '瑞典 A06'
+      - '新加坡 W07'
       - '美国 R01'
       - '美国 A08'
       - '美国 A03'
       - '美国 Y03'
+      - '香港 S01'
+      - '马来西亚 E05'
 
 rules:
   - GEOIP,CN,DIRECT
