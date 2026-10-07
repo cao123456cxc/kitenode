@@ -8,7 +8,7 @@ proxies:
     type: vless
     server: 'ae-li03.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -22,7 +22,7 @@ proxies:
     type: vless
     server: 'au-ev03.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -36,7 +36,7 @@ proxies:
     type: vless
     server: 'ch-ev03.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -50,7 +50,7 @@ proxies:
     type: vless
     server: 'de-aws08.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -64,7 +64,7 @@ proxies:
     type: vless
     server: 'ee-wa04.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -78,7 +78,7 @@ proxies:
     type: vless
     server: 'en-ali05.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -92,7 +92,7 @@ proxies:
     type: vless
     server: 'en-aw05.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -106,7 +106,7 @@ proxies:
     type: vless
     server: 'fr-ws02.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -120,7 +120,7 @@ proxies:
     type: vless
     server: 'hk-hli10.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -134,7 +134,7 @@ proxies:
     type: vless
     server: 'hk-kli02vn-nat03.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -148,7 +148,7 @@ proxies:
     type: vless
     server: 'hk-ye05.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -162,7 +162,7 @@ proxies:
     type: vless
     server: 'zzsg02th-a03.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -176,7 +176,7 @@ proxies:
     type: vless
     server: 'hktw-kli06tw-nat02.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -190,7 +190,7 @@ proxies:
     type: vless
     server: 'id-sg05.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -204,7 +204,7 @@ proxies:
     type: vless
     server: 'il-ka04.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -218,7 +218,7 @@ proxies:
     type: vless
     server: 'in-a09.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -232,7 +232,7 @@ proxies:
     type: vless
     server: 'it-ka03.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -246,7 +246,7 @@ proxies:
     type: vless
     server: 'jp-aws03.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -260,7 +260,7 @@ proxies:
     type: vless
     server: 'jp-t09.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -274,7 +274,7 @@ proxies:
     type: vless
     server: 'kr-ls02.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -288,7 +288,7 @@ proxies:
     type: vless
     server: 'nl-ka05.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -302,7 +302,7 @@ proxies:
     type: vless
     server: 'no-fun08.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -316,7 +316,7 @@ proxies:
     type: vless
     server: 'se-aws07.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -330,7 +330,7 @@ proxies:
     type: vless
     server: 'sg-aw06.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -344,7 +344,7 @@ proxies:
     type: vless
     server: 'us-rack01.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -356,9 +356,9 @@ proxies:
     flow: 'xtls-rprx-vision'
   - name: '美国 A08'
     type: vless
-    server: 'us-isp.kitenetwork.top'
+    server: 'us-kisp08.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -372,7 +372,7 @@ proxies:
     type: vless
     server: 'us-pro02.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -386,7 +386,7 @@ proxies:
     type: vless
     server: 'us-rack02.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -400,7 +400,7 @@ proxies:
     type: vless
     server: 'zzgz03hk-yt02.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
@@ -414,7 +414,7 @@ proxies:
     type: vless
     server: 'zzhkmy-ev06my-ev06.kitenetwork.top'
     port: 443
-    uuid: '0a664cc1-5caf-487c-9b74-21694ff6a217'
+    uuid: '4bfbfb64-8aa0-4572-acff-6943faca2610'
     network: tcp
     tls: true
     udp: true
